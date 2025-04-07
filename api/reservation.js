@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   const appKey = process.env.APP_KEY;
 
   try {
-    const response = await axios.post("https://api.wfirma.pl/warehouse_documents", req.body, {
+    const response = await axios.post("https://api2.wfirma.pl/warehouse_documents", req.body, {
       headers: {
         accessKey,
         secretKey,
